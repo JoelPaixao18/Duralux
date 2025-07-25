@@ -216,7 +216,7 @@
                     </a>
                     <ul class="nxl-submenu">
                         <li class="nxl-item"><a class="nxl-link" href="#/">Support</a></li>
-                        <li class="nxl-item"><a class="nxl-link" href="/Help/help-knowledgebase">KnowledgeBase</a></li>
+                        <li class="nxl-item"><a class="nxl-link" href="/helpCenter/knowledgebase">KnowledgeBase</a></li>
                         <li class="nxl-item"><a class="nxl-link" href=".docs/documentations">Documentations</a></li>
                     </ul>
                 </li>

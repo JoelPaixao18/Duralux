@@ -30,175 +30,120 @@ Route::get('/analytics', function () {
                     Proposal routes
 -------------------------------------------------------*/
 Route::get('/proposal', function () {
-
-
-
     return view('proposal.proposal.index');
-
-
 });
 
 
 Route::get('/proposal/proposalView', function () {
-
-
     return view('proposal.proposalView.index');
-
-
 });
 
 
 Route::get('/proposal/proposalEdit', function () {
-
-
     return view('proposal.proposalEdit.index');
-
-
 });
 
 
 Route::get('/proposal/proposalCreate', function () {
-
-
     return view('proposal.proposalCreate.index');
-
-
 });
 
 /*-------------------------------------------------------
                     reports routes
 -------------------------------------------------------*/
-
 Route::get('/Reports/reportsSales', function () {
-
-
     return view('reports.sales.index');
-
-
 });
+
 Route::get('/Reports/reportsLeads', function () {
-
-
     return view('reports.leads.index');
-
-
 });
+
 Route::get('/Reports/reportsProject', function () {
-
-
     return view('reports.project.index');
-
-
 });
+
 Route::get('/Reports/reportsTimesheets', function () {
-
-
     return view('reports.timesheets.index');
-
-
 });
 
 /*-------------------------------------------------------
                     aplications routes
 -------------------------------------------------------*/
-
 Route::get('/Applications/appsChat', function () {
-
-
     return view('applications.chat.index');
-
-
 });
+
 Route::get('/Applications/appsEmail', function () {
-
-
     return view('applications.email.index');
-
-
 });
+
 Route::get('/Applications/appsTasks', function () {
-
-
     return view('applications.tasks.index');
-
-
 });
+
 Route::get('/Applications/appsNotes', function () {
-
-
     return view('applications.notes.index');
-
-
 });
+
 Route::get('/Applications/appsStorage', function () {
-
-
     return view('applications.storage.index');
-
-
 });
+
 Route::get('/Applications/appsCalendar', function () {
-
-
     return view('applications.calendar.index');
-
-
 });
 
 /*-------------------------------------------------------
                     customers routes
 -------------------------------------------------------*/
 
-Route::get('/customers', function(){
-
+Route::get('/customers', function () {
     return view('customers.customers.index');
-
 });
-Route::get('/customers/customersView', function(){
 
+Route::get('/customers/customersView', function () {
     return view('customers.customersView.index');
-
 });
-Route::get('/customers/customersCreate', function(){
 
+Route::get('/customers/customersCreate', function () {
     return view('customers.customersCreate.index');
-
 });
+
 /*-------------------------------------------------------
                     leads routes
 -------------------------------------------------------*/
 
-Route::get('/leads', function(){
-
+Route::get('/leads', function () {
     return view('leads.leads.index');
-
 });
-Route::get('/leads/leadsView', function(){
 
+Route::get('/leads/leadsView', function () {
     return view('leads.leadsView.index');
-
 });
-Route::get('/leads/leadsCreate', function(){
 
+Route::get('/leads/leadsCreate', function () {
     return view('leads.leadsCreate.index');
-
 });
+
 /*-------------------------------------------------------
                     projects routes
 -------------------------------------------------------*/
-
-Route::get('/projects', function(){
-
+Route::get('/projects', function () {
     return view('projects.projects.index');
-
 });
-Route::get('/projects/projectsView', function(){
 
+Route::get('/projects/projectsView', function () {
     return view('projects.projectsView.index');
-
 });
-Route::get('/projects/projectsCreate', function(){
 
+Route::get('/projects/projectsCreate', function () {
     return view('projects.projectsCreate.index');
+});
 
+/*-------------------------------------------------------
+                    Help Center routes
+-------------------------------------------------------*/
+Route::get('/helpCenter/knowledgebase', function () {
+    return view('helpCenter.knowledgebase.index');
 });
