@@ -2,8 +2,7 @@
 <html lang="zxx">
 
 
-<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/customers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:37 GMT -->
-
+<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/projects-create.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:44 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -23,9 +22,11 @@
     <!--! END: Bootstrap CSS-->
     <!--! BEGIN: Vendors CSS-->
     <link rel="stylesheet" type="text/css" href="{{ url('assets/vendors/css/vendors.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ url('assets/vendors/css/dataTables.bs5.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ url('assets/vendors/css/select2.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ url('assets/vendors/css/select2-theme.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url('assets/vendors/css/jquery.steps.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url('assets/vendors/css/quill.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url('assets/vendors/css/datepicker.min.css')}}">
     <!--! END: Vendors CSS-->
     <!--! BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="{{ url('assets/css/theme.min.css')}}">
@@ -40,25 +41,27 @@
 
 <body>
 
-    @include('customers.customersCreate.parcial.header')
-    @include('customers.customersCreate.parcial.menu')
+    @include('projects.projectsCreate.parcial.header')
+    @include('projects.projectsCreate.parcial.menu')
     <main class="nxl-container">
-        @yield('content-customersCreate')
-        @include('customers.customersCreate.parcial.footer')
+        @yield('content-projectsCreate')
+        @include('projects.projectsCreate.parcial.footer')
     </main>
-    @include('customers.customersCreate.parcial.thema')
+    @include('projects.projectsCreate.parcial.thema')
 
     <!--! BEGIN: Vendors JS !-->
     <script src="{{ url('assets/vendors/js/vendors.min.js')}}"></script>
     <!-- vendors.min.js {always must need to be top} -->
-    <script src="{{ url('assets/vendors/js/dataTables.min.js')}}"></script>
-    <script src="{{ url('assets/vendors/js/dataTables.bs5.min.js')}}"></script>
+    <script src="{{ url('assets/vendors/js/jquery.steps.min.js')}}"></script>
+    <script src="{{ url('assets/vendors/js/jquery.validate.min.js')}}"></script>
     <script src="{{ url('assets/vendors/js/select2.min.js')}}"></script>
     <script src="{{ url('assets/vendors/js/select2-active.min.js')}}"></script>
+    <script src="{{ url('assets/vendors/js/quill.min.js')}}"></script>
+    <script src="{{ url('assets/vendors/js/datepicker.min.js')}}"></script>
     <!--! END: Vendors JS !-->
     <!--! BEGIN: Apps Init  !-->
     <script src="{{ url('assets/js/common-init.min.js')}}"></script>
-    <script src="{{ url('assets/js/customers-init.min.js')}}"></script>
+    <script src="{{ url('assets/js/projects-create-init.min.js')}}"></script>
     <!--! END: Apps Init !-->
     <!--! BEGIN: Theme Customizer  !-->
     <script src="{{ url('assets/js/theme-customizer-init.min.js')}}"></script>
@@ -66,6 +69,6 @@
 </body>
 
 
-<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/customers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:38 GMT -->
+<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/projects-create.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:46 GMT -->
 
 </html>

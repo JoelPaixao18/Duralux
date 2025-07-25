@@ -2,8 +2,7 @@
 <html lang="zxx">
 
 
-<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/customers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:37 GMT -->
-
+<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/projects.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:43 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -13,7 +12,7 @@
     <meta name="author" content="WRAPCODERS">
     <!--! The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags !-->
     <!--! BEGIN: Apps Title-->
-    <title>@yield('title')</title>
+    <title>Duralux || Projects</title>
     <!--! END:  Apps Title-->
     <!--! BEGIN: Favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="{{ url('assets/images/favicon.ico')}}">
@@ -39,15 +38,14 @@
 </head>
 
 <body>
-
-    @include('customers.customersCreate.parcial.header')
-    @include('customers.customersCreate.parcial.menu')
+    @include('projects.projects.parcial.header')
+    @include('projects.projects.parcial.menu')
     <main class="nxl-container">
-        @yield('content-customersCreate')
-        @include('customers.customersCreate.parcial.footer')
+        @yield('content-projects')
+        @include('projects.projects.parcial.footer')
     </main>
-    @include('customers.customersCreate.parcial.thema')
-
+    @include('projects.projects.parcial.thema')
+   
     <!--! BEGIN: Vendors JS !-->
     <script src="{{ url('assets/vendors/js/vendors.min.js')}}"></script>
     <!-- vendors.min.js {always must need to be top} -->
@@ -58,7 +56,7 @@
     <!--! END: Vendors JS !-->
     <!--! BEGIN: Apps Init  !-->
     <script src="{{ url('assets/js/common-init.min.js')}}"></script>
-    <script src="{{ url('assets/js/customers-init.min.js')}}"></script>
+    <script src="{{ url('assets/js/projects-init.min.js')}}"></script>
     <!--! END: Apps Init !-->
     <!--! BEGIN: Theme Customizer  !-->
     <script src="{{ url('assets/js/theme-customizer-init.min.js')}}"></script>
@@ -66,6 +64,5 @@
 </body>
 
 
-<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/customers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:38 GMT -->
-
+<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/projects.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:43 GMT -->
 </html>

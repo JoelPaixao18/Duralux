@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 
-<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/customers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:37 GMT -->
+<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/leads.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:41 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -40,13 +40,13 @@
 
 <body>
 
-    @include('customers.customersCreate.parcial.header')
-    @include('customers.customersCreate.parcial.menu')
+    @include('leads.leads.parcial.header')
+    @include('leads.leads.parcial.menu')
     <main class="nxl-container">
-        @yield('content-customersCreate')
-        @include('customers.customersCreate.parcial.footer')
+        @yield('content-leads')
+        @include('leads.leads.parcial.footer')
     </main>
-    @include('customers.customersCreate.parcial.thema')
+    @include('leads.leads.parcial.thema')
 
     <!--! BEGIN: Vendors JS !-->
     <script src="{{ url('assets/vendors/js/vendors.min.js')}}"></script>
@@ -58,7 +58,7 @@
     <!--! END: Vendors JS !-->
     <!--! BEGIN: Apps Init  !-->
     <script src="{{ url('assets/js/common-init.min.js')}}"></script>
-    <script src="{{ url('assets/js/customers-init.min.js')}}"></script>
+    <script src="{{ url('assets/js/leads-init.min.js')}}"></script>
     <!--! END: Apps Init !-->
     <!--! BEGIN: Theme Customizer  !-->
     <script src="{{ url('assets/js/theme-customizer-init.min.js')}}"></script>
@@ -66,6 +66,6 @@
 </body>
 
 
-<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/customers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:38 GMT -->
+<!-- Mirrored from bestwpware.com/html/tf/duralux-demo/leads.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jul 2025 12:20:42 GMT -->
 
 </html>
